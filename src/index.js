@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var searchScamFromAd_1 = require("./usecase/searchScamFromAd");
+var FakeApiQuotationCalculator_1 = require("./infrastructure/FakeApiQuotationCalculator");
+var fakeApiRegisterNumberBlocker_1 = require("./infrastructure/fakeApiRegisterNumberBlocker");
+var quotationCalculator = new FakeApiQuotationCalculator_1.FakeApiQuotationCalculator();
+var registerNumberBlocker = new fakeApiRegisterNumberBlocker_1["default"]();
+var searchScamFromAd = new searchScamFromAd_1["default"](quotationCalculator, registerNumberBlocker);
+var ad = JSON.parse("./ressources/ad.json");
+var scams = searchScamFromAd.search(ad);
+console.log("scams :", scams);

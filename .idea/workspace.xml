@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f466dc0-04a3-4413-852e-c04344c08c15" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="2Clm0AT5AGwrjPhYsOmV4HNpqS3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "//wsl$/Debian/home/bikach/workspace/business/la-centrale",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Debian@/home/bikach/.nvm/versions/node/v17.4.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "\\\\wsl$\\Debian\\home\\bikach\\workspace\\business\\la-centrale\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Debian\home\bikach\workspace\business\la-centrale\src\domain" />
+      <recent name="\\wsl$\Debian\home\bikach\workspace\business\la-centrale\src" />
+      <recent name="\\wsl$\Debian\home\bikach\workspace\business\la-centrale" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="test-watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.test-watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f466dc0-04a3-4413-852e-c04344c08c15" name="Changes" comment="" />
+      <created>1659385319584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659385319584</updated>
+      <workItem from="1659385320756" duration="15214000" />
+      <workItem from="1659473002175" duration="19209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/model/ad.js" />
+        <option value="$PROJECT_DIR$/src/model/ruleScamFailMessage.js" />
+        <option value="$PROJECT_DIR$/src/model/car.js" />
+        <option value="$PROJECT_DIR$/src/model/contacts.js" />
+        <option value="$PROJECT_DIR$/src/model/scam.js" />
+        <option value="$PROJECT_DIR$/src/gateway/registerNumberBlocker.js" />
+        <option value="$PROJECT_DIR$/src/gateway/quotationCalculator.js" />
+        <option value="$PROJECT_DIR$/src/usecase/searchScamFromAd.js" />
+        <option value="$PROJECT_DIR$/src/infrastructure/FakeApiQuotationCalculator.js" />
+        <option value="$PROJECT_DIR$/src/infrastructure/fakeApiRegisterNumberBlocker.js" />
+      </list>
+    </option>
+  </component>
+</project>
