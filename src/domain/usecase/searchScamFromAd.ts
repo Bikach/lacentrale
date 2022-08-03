@@ -7,7 +7,7 @@ export default class SearchScamFromAd {
                 private readonly registerNumberBlocker: RegisterNumberBlocker) {}
 
     search = (ad: Ad) => {
-        const licencePlateAuthorized = this.registerNumberBlocker.block(ad.getRegisterNumber())
-        return ad.searchScam(licencePlateAuthorized)
+        const hasUnblockedRegisterNumber = this.registerNumberBlocker.block(ad.getRegisterNumber())
+        return ad.searchScam(hasUnblockedRegisterNumber)
     }
 }
